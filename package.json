@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/babel-cli/bin/babel-node.js ./back/main.js",
+    "start": "nodemon ./node_modules/babel-cli/bin/babel-node.js ./back/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,10 @@
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-node6": "^11.0.0",
     "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "csvtojson": "^1.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
