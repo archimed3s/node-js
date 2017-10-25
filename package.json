@@ -22,7 +22,12 @@
     "babel-preset-node6": "^11.0.0",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
-    "csvtojson": "^1.1.7"
+    "combined-stream": "^1.0.5",
+    "csv2": "^0.1.1",
+    "csvtojson": "^1.1.7",
+    "request": "^2.83.0",
+    "through2": "^2.0.3",
+    "yargs": "^10.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
